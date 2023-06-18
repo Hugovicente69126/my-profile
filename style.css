@@ -1,0 +1,147 @@
+body{
+	background-color:#F5EFE7;
+	color: black;
+	font-size: 17px;
+    word-spacing: 1.6px;
+    font-family: cambria;
+
+
+}
+h1{
+	font-family: 'Geologica', sans-serif;;
+    color:#213555;;
+    font-weight: 720;
+    letter-spacing: 1px;
+   	font-size: 32px;
+   	font-weight: bold;
+}
+h2, h3{
+	text-decoration: underline;
+	font-size: 28px;
+	font-family: 'Geologica', sans-serif;
+	font-weight: bold;
+	color:#213555;
+}
+
+a{
+	text-decoration: none;
+    color: #213555;
+    font-family: 'Geologica', sans-serif;
+}
+a:hover{
+	font-weight: bold;
+	color: black;
+	font-family: 'Geologica', sans-serif;
+}
+.img-circle{
+	width: 250px;
+	border-radius: 50%;
+	 box-shadow: 5px 10px 30px rgba(0,0,0,0.9);
+
+}
+#image{
+	height: 450px;
+	width: 500PX;
+	margin: 20px auto;
+	border-radius: 20%;	
+}
+.container{
+	width: 700px;
+	margin: 20px auto;
+}
+@media (max-width: 760px) {
+	.container {
+	width: 600px	;
+		}
+	.btn-blue{
+	background-color: #F5EFE7;
+	padding: 0px 0px;
+	border-radius: 20px;
+	font-style: italic;
+	font-size: 15px;
+	}
+	.list-inline  {
+	display: inline;
+	padding: 25px;
+	margin: 25px 30px;	
+	}
+	#image{
+	height: 300px;
+	width: 350PX;
+	margin: 20px auto;
+	border-radius: 20%;	
+}
+	
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px	;
+		}
+	.img-circle{
+	width: 175px;
+	border-radius: 50%;
+	 box-shadow: 5px 10px 30px rgba(0,0,0,0.9);
+	 }
+	.btn-blue{
+	background-color: #F5EFE7;
+	padding: 0px 0px;
+	border-radius: 20px;
+	font-style: italic;
+	font-size: 10px;
+	}
+	.list-inline  {
+	display: inline;
+	padding: 25px;
+	margin: 25px 30px;	
+	}
+	#image{
+	height: 200px;
+	width: 225PX;
+	margin: 20px auto;
+	border-radius: 20%;	
+}	
+}
+.card-white{
+ 	margin: 10px auto;
+ 	background: #709ef2;
+    padding: 40px;
+    margin: 49px;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.9);
+    border-radius: 20px;
+    text-align: center;
+}
+.card-white p {
+	margin-bottom: 40px;
+}
+.video-design{
+	width: 200px;
+	border-radius: 4%;
+	box-shadow: 5px 10px 30px rgba(20,20,20,2);   
+}
+.btn-blue{
+	background-color: #F5EFE7;
+	padding: 8px 12px;
+	border-radius: 20px;
+	font-style: italic;
+}
+.btn-blue:hover {
+	font-weight: bold;
+	font-style:normal;
+
+}
+.list-inline{
+	list-style: none;
+	padding-left: Opx;
+}
+.list-inline li {
+	display: inline;
+	padding: 25px;	
+}
+.list-inline i{
+	font-size: 50px;
+}
+.list-inline i:hover {
+	font-size: 70px;
+	font-weight: bold;
+}
